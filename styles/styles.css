@@ -41,6 +41,7 @@ main a:hover {
   vertical-align: top;
 }
 
+/*color de los iconos de bootstrap del footer*/
 footer i.bi {
   color: #EE526B;
   transition: color 0.3s;
