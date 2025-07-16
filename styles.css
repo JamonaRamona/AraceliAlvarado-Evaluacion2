@@ -1,0 +1,51 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #00AFA0;
+}
+
+main a:hover {
+  color: #007B73;
+  text-decoration: underline;
+}
+
+.polaval-underline-title {
+  display: block;
+  border-bottom: 4px solid #EE526B;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.polaval-color-box {
+  background-color: #10B49E;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column; /*organziación vertical porque son columnas*/
+  height: 100%;
+}
+
+/*cambiar borde del formulario */
+.form-control:focus {
+  border-color: gray;
+  box-shadow: 0 0 0 0.25rem rgba(49, 67, 65, 0.25);
+}
+
+/*saltos de línea en el formulario y organización del texto */
+#contactsTable td:nth-child(5) {
+  max-width: 250px;
+  white-space: normal;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+footer i.bi {
+  color: #EE526B;
+  transition: color 0.3s;
+}
+
+footer i.bi:hover {
+  color: #c6374f;
+}
